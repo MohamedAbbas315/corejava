@@ -1,0 +1,46 @@
+
+   
+
+even number program
+
+package abs;
+public class even {
+
+	public static void main(String[] args) {
+		  int n=50;
+		  System.out.println("even");
+		 for(int i=0;i<=n;i++)
+		 {
+			 if(i%2==0)
+			 {
+				 System.out.println(i);
+		 }
+
+	}
+  }
+}
+
+
+
+odd number program
+
+
+package abs;
+
+public class new1 
+{
+	public static void main(String[] args)
+	{
+		int s=50;
+		System.out.println("odd");
+		for(int i=0;i<=s;i++)
+		{
+			if(i%2!=0)
+			{
+				System.out.println(i);
+			}
+		}
+			
+	}
+
+}
