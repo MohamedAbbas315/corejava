@@ -1,0 +1,24 @@
+package helo;
+
+public class name {  
+	public String fruit;
+	private double price;
+	public name(String namefru) {
+		fruit = namefru;
+	}
+      public void setprice(double namepri) {
+    	  price = namepri;
+      }
+      public void printname() {
+    	  System.out.println("Furit name : "+fruit);
+    	  System.out.println("Price of the fruit : "+price);
+      }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          name na = new name("Mango");
+          na.setprice(22);
+          na.printname();
+          
+	}
+
+}
